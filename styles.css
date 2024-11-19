@@ -647,3 +647,66 @@ button:hover {
 .remove-discount:hover {
     color: #ff6666;
 }
+
+
+/* Add to styles.css */
+
+.custom-inputs,
+.catalog-inputs {
+    display: grid;
+    gap: 15px;
+}
+
+.price-input input {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.price-input input:read-only {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+}
+
+.discount-section {
+    background: rgba(255, 215, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.discount-section select,
+.discount-section input {
+    margin-top: 5px;
+}
+
+.item-discount {
+    color: #ffd700;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.total-discount-info {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(255, 215, 0, 0.1);
+    border-radius: 8px;
+    color: #ffd700;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .custom-inputs,
+    .catalog-inputs {
+        grid-template-columns: 1fr;
+    }
+    
+    .discount-section {
+        margin-top: 5px;
+    }
+}
