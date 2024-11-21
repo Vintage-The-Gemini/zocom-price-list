@@ -397,8 +397,8 @@ function generateQuotationPDF() {
         { text: "Nairobi, Kenya", style: 'normal' },
         { text: "Tel: +254 722 123456", style: 'normal' },
         { text: "     +254 733 123456", style: 'normal' },
-        { text: "Email: info@zocomsolutions.co.ke", style: 'highlight' },
-        { text: "www.zocomsolutions.co.ke", style: 'highlight' }
+        { text: "Email: info@zocomlimited.co.ke", style: 'highlight' },
+        { text: "www.zocomlimited.co.ke", style: 'highlight' }
     ];
 
     let rightColumnY = 20;
